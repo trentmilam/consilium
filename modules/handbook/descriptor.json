@@ -1,0 +1,16 @@
+{
+  "name": "handbook",
+  "subjects": [
+    "employee handbook", "paid time off PTO", "vacation days accrual", "expense reimbursement",
+    "travel and meals per diem", "remote work policy", "onboarding new hire", "benefits",
+    "information security policy", "internal company policy"
+  ],
+  "example_queries": [
+    "How many PTO days do employees accrue per year?",
+    "What is the expense reimbursement limit and process?",
+    "What is the remote-work policy for new hires?"
+  ],
+  "authority": "internal firm handbook (synthetic)",
+  "freshness": "annual",
+  "trust_tier": 0.6
+}

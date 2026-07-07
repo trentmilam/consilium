@@ -1,0 +1,16 @@
+{
+  "name": "legal",
+  "subjects": [
+    "contracts", "non-disclosure agreement NDA", "confidentiality", "master services agreement",
+    "intellectual property ownership", "limitation of liability", "governing law",
+    "GDPR data protection", "data subject rights", "breach notification", "clauses and terms"
+  ],
+  "example_queries": [
+    "What is the confidentiality term in the NDA?",
+    "Who owns the intellectual property under the services agreement?",
+    "What rights do data subjects have under GDPR?"
+  ],
+  "authority": "contract templates + regulation summaries (synthetic, public-safe)",
+  "freshness": "annual",
+  "trust_tier": 0.7
+}

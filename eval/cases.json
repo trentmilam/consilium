@@ -1,0 +1,29 @@
+{
+  "single": [
+    {"query": "What was Acme's total revenue and which segment grew fastest?", "expect": "markets"},
+    {"query": "What were Globex quarterly earnings and diluted EPS?", "expect": "markets"},
+    {"query": "What does EBITDA mean?", "expect": "markets"},
+    {"query": "What is the confidentiality term length in the mutual NDA?", "expect": "legal"},
+    {"query": "Who owns the intellectual property under the services agreement?", "expect": "legal"},
+    {"query": "What rights do data subjects have under GDPR?", "expect": "legal"},
+    {"query": "How many PTO days do full-time employees accrue per year?", "expect": "handbook"},
+    {"query": "What is the expense reimbursement limit for meals while traveling?", "expect": "handbook"},
+    {"query": "What is the information security policy on multi-factor authentication?", "expect": "handbook"}
+  ],
+  "crossdomain": [
+    {"query": "For a new hire, what is the expense reimbursement policy and what does EBITDA mean?", "expect": ["handbook", "markets"]},
+    {"query": "What confidentiality term applies and what is our remote work and security policy?", "expect": ["legal", "handbook"]}
+  ],
+  "oos": [
+    {"query": "What is the best recipe for sourdough bread?"},
+    {"query": "Who won the football match last night?"}
+  ],
+  "oos_keyword": [
+    {"query": "I want to race my stock car this weekend"},
+    {"query": "my favorite market is the farmers market"}
+  ],
+  "fabricated_claim": {
+    "query": "What was Acme's total revenue?",
+    "injected": "Acme Corp secretly plans to acquire Globex Industries for $9 billion next month."
+  }
+}

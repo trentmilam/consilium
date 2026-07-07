@@ -1,0 +1,16 @@
+{
+  "name": "markets",
+  "subjects": [
+    "financial filings", "earnings reports", "revenue and net income",
+    "business segments", "10-K annual report", "EBITDA", "EPS earnings per share",
+    "gross margin", "valuation", "guidance", "stock market", "company financials"
+  ],
+  "example_queries": [
+    "What was the company's revenue and which segment grew fastest?",
+    "What were quarterly earnings and EPS?",
+    "What does EBITDA mean?"
+  ],
+  "authority": "SEC-style filings + market reference glossary (synthetic, public-safe)",
+  "freshness": "quarterly",
+  "trust_tier": 0.8
+}
